@@ -2,13 +2,8 @@
 
 void	ft_div_mod(int a, int b, int *div,int *mod)
 {
-	int	i;
-	int	j;
-
-	i = a / b;
-	*div = i;
-	j = a % b;
-	*mod = j;
+	*div = a / b;
+	*mod = a % b;
 }
 
 int main()
