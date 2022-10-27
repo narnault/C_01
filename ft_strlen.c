@@ -2,17 +2,16 @@
 
 int    ft_strlen(char *str)
 {
-        int     i;
+    int     i;
 
-        i = 0;
-        while (str[i])
-                i++;
-	return (i);
+    i = 0;
+    while (str[i])
+        i++;
+    return (i);
 }
 
 int main()
 {
-        char str[] = "Salut tu vas bien";
-        i = ft_strlen(str);
+    char str[] = "Salut tu vas bien";
 	printf("%i", ft_strlen(str));
 }
